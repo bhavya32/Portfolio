@@ -108,7 +108,114 @@
             </div>
         </div>
         <div id="project" class="project">
-            <h2>4. SKIStats</h2><br>
+            <h2>4. FamTrack</h2><br>
+            <img src="@/assets/famtrack.png" alt="FamTrack" width="100%" height="auto">
+            <p>
+                Currently under development, this is a family asset tracking app. It allows you to track all the financial assets of you family in one place, and get various insights and stats. 
+                <br><br>
+                The users can direrctly link their mfcentral accounts of family members to auto sync assets. 
+                It will auto fetch available live prices of assets and calculate the net worth and immediate liquidity of the family. Users can identify their asset distributions and high/low performing assets.
+                <br><br>
+                The main goal is to maintain privacy and security of user data, and hence, all the asset info is stored in local storage and synced with google drive. No info is stored on server.
+            </p><br>
+
+            <!-- fetch the tech stacks used and render it to icons-->
+            <h2>Tech Stack - </h2>
+            <div class="techstack">
+                
+                <div class="icon">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/vue-js.png" alt="vue-js"/>
+                    <span>Vue.js</span>
+                </div>
+                <div class="icon">
+                    <img width="96" height="96" src="https://img.icons8.com/fluency/96/node-js.png" alt="node-js"/>
+                    <span>Node.js</span>
+                </div>  
+            </div>
+        </div>
+        <div id="project" class="project">
+            <h2>5. Arcanum v2</h2><br>
+            <img src="@/assets/arcanum.png" alt="Arcanum" width="100%" height="auto">
+            <p>
+                Got awarded the best project of the course (AppDev-2). Its a complete library management system, where students can issue and read books.
+                The librarian can add, delete and update books. It also has a payment gateway with razorpay integration. 
+                <br><br>
+                <a href="https://github.com/bhavya32/arcanum-v2">Github</a>
+            </p><br>
+
+            <!-- fetch the tech stacks used and render it to icons-->
+            <h2>Tech Stack - </h2>
+            <div class="techstack">
+                
+                <div class="icon">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/vue-js.png" alt="vue-js"/>
+                    <span>Vue.js</span>
+                </div>
+                <div class="icon">
+                    <img width="96" height="96" src="https://img.icons8.com/fluency/96/python.png" alt="python"/>
+                    <span>Python</span>
+                </div>  
+                <div class="icon">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/mysql-logo.png" alt="arduino"/>
+                    <span>Postgres</span>
+                </div> 
+            </div>
+        </div>
+        <div id="project" class="project">
+            <h2>6. navEstimator</h2><br>
+            <img src="@/assets/navEstimator.png" alt="Arcanum" width="100%" height="auto">
+            <p>
+                A live nav estimator for mutual funds. The official prices of mutual funds are only released at the end of the day.
+                However, in high volatility market, you might want to know what nav will you be alloted. This uses the asset sheet of the mutual fund, fetches the live prices of stocks, and calculates the nav with crucial insights like % change, and lists all the holding stocks with their respective % changes of the day.
+                <br><br>
+                <a href="https://github.com/bhavya32/navEstimator">Github</a>
+            </p><br>
+
+            <!-- fetch the tech stacks used and render it to icons-->
+            <h2>Tech Stack - </h2>
+            <div class="techstack">
+                
+                <div class="icon">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/vue-js.png" alt="vue-js"/>
+                    <span>Vue.js</span>
+                </div>
+                <div class="icon">
+                    <img width="96" height="96" src="https://img.icons8.com/fluency/96/node-js.png" alt="node-js"/>
+                    <span>Node.js</span>
+                </div>   
+            </div>
+        </div>
+        <div id="project" class="project">
+            <h2>7. Coming Soon</h2><br>
+            <img src="@/assets/cs.png" alt="EncryptID" width="100%" height="auto">
+            <p>
+                Sneak Peek - <a href="https://encryptid.vercel.app">Click Here!</a>
+            </p><br>
+
+            <!-- fetch the tech stacks used and render it to icons-->
+            <h2>Tech Stack - </h2>
+            <div class="techstack">
+                
+                <div class="icon">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/vue-js.png" alt="vue-js"/>
+                    <span>Vue.js</span>
+                </div>
+                <div class="icon">
+                    <img width="96" height="96" src="https://img.icons8.com/nolan/96/three-js.png" alt="arduino"/>
+                    <span>ThreeeJS</span>
+                </div> 
+                <div class="icon">
+                    <img width="96" height="96" src="https://img.icons8.com/fluency/96/node-js.png" alt="node-js"/>
+                    <span>Node.js</span>
+                </div>   
+                <div class="icon">
+                    <img src="@/assets/typescript.svg" alt="TypeScript" />
+                    <span>TypeScript</span>
+                </div>
+            </div>
+        </div>
+        <div id="project" class="project">
+            <h2>8. SKIStats</h2><br>
             <img src="@/assets/skistats.jpg" alt="WhatsAPI" width="100%" height="auto">
             <p>SKIStats was one of my first IoT projects for my own business. Its a very simple temperature control and alert system, designed for
                 cold chain industry. It aggregates stats like temperature and humidity from multiple sensors in differnt cold chambers.
@@ -138,12 +245,12 @@
             </div>
         </div>
         <div id="project" class="project">
-            <h2>5. This Portfolio</h2><br>
+            <h2>9. This Portfolio</h2><br>
             <img src="@/assets/website.png" alt="WhatsAPI" width="100%" height="auto">
             <p>
                 This portfolio website is made using Vue.js and Vuetify. It was my first time working with VueJS and it was quite different from regular HTML, CSS and JS.
                 <br><br>
-                The theme is minimalist as I am not a designer. I have tried to keep it simple and clean. 
+                The theme is minimalist. I have tried to keep it simple and clean. 
                 Its open source at - <a href="https://github.com/bhavya32/Portfolio">Github</a>
             </p><br>
 

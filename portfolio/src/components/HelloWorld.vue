@@ -11,7 +11,7 @@ defineProps({
   <div class="greetings">
     <h1 class="green nmfont"><b><VueWriter :array="['Bhavya Gupta', 'Welcome!']" :caret="cursor" :typeSpeed="70" :delay="6000" start="500" :iterations="2" /></b></h1>
     <h3>
-      IIT Madras ‘26 | Data Science
+      IIT Madras ‘27 | Data Science
     </h3>
   </div>
 </template>
